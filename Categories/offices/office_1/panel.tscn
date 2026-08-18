@@ -1,7 +1,7 @@
-[gd_scene format=3 uid="uid://dese35e0tb72v"]
+[gd_scene format=3 uid="uid://bpm5tynlvdsey"]
 
-[ext_resource type="FontFile" uid="uid://d4ajbynek68ej" path="res://assets/fonts/arial/ArialCEMTBlack.ttf" id="1_ug4e5"]
-[ext_resource type="FontFile" uid="uid://dii3myewc8xuo" path="res://assets/fonts/arial/ArialCE.ttf" id="2_ygaxv"]
+[ext_resource type="FontFile" uid="uid://d4ajbynek68ej" path="res://assets/fonts/arial/ArialCEMTBlack.ttf" id="1_kvr3l"]
+[ext_resource type="FontFile" uid="uid://dii3myewc8xuo" path="res://assets/fonts/arial/ArialCE.ttf" id="2_sauqt"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2wyq8"]
 bg_color = Color(1, 1, 1, 1)
@@ -28,7 +28,7 @@ anchor_bottom = 0.24428572
 mouse_filter = 1
 theme_override_styles/panel = SubResource("StyleBoxFlat_2wyq8")
 metadata/_edit_use_anchors_ = true
-metadata/place_id = "office_2"
+metadata/place_id = "building_1"
 
 [node name="image_placeholder" type="Panel" parent="." unique_id=926277896]
 layout_mode = 0
@@ -45,7 +45,7 @@ offset_top = 348.0
 offset_right = 209.0
 offset_bottom = 394.0
 theme_override_colors/font_color = Color(0.18039216, 0.18039216, 0.18039216, 1)
-theme_override_fonts/font = ExtResource("1_ug4e5")
+theme_override_fonts/font = ExtResource("1_kvr3l")
 theme_override_font_sizes/font_size = 25
 text = "place name "
 uppercase = true
@@ -57,7 +57,7 @@ offset_top = 389.0
 offset_right = 229.0
 offset_bottom = 437.0
 theme_override_colors/font_color = Color(0.18039216, 0.18039216, 0.18039216, 1)
-theme_override_fonts/font = ExtResource("2_ygaxv")
+theme_override_fonts/font = ExtResource("2_sauqt")
 theme_override_font_sizes/font_size = 10
 text = "description description description 
 description description description 
